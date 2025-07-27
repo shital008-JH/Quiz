@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="quiz">
+            <div id="status">
+                <span id="attended">0</span> / <span id="total">0</span> questions attended
+                | Skipped: <span id="skipped">0</span>
+            </div>
+            <h2 id="question">Question Text</h2>
+            <ul>
+                <li><button id="a" class="choice">Choice A</button></li>
+                <li><button id="b" class="choice">Choice B</button></li>
+                <li><button id="c" class="choice">Choice C</button></li>
+                <li><button id="d" class="choice">Choice D</button></li>
+            </ul>
+            <div id="nav-buttons">
+                <button id="previous">Previous</button>
+                <button id="skip">Skip</button>
+                <button id="next">Next</button>
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+        <div id="result" class="hide">
+            <h2>Score: <span id="score"></span></h2>
+            <p>Correct Answers: <span id="correct"></span></p>
+            <p>Wrong Answers: <span id="wrong"></span></p>
+            <p>Skipped Questions: <span id="skipped-final"></span></p>
+            <button id="retry">Retry</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
