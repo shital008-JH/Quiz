@@ -34,13 +34,7 @@ You can download the app from here:
 8. Click **Retry** to restart the quiz from the beginning.
 
 ---
-
-## Project Structure
-├── index.html # Main HTML file with quiz interface
-├── style.css # CSS styles for layout and design
-├── script.js # JavaScript logic controlling quiz flow and state
-└── README.md # This documentation file
----
+ 
 
 ## Technologies Used
 
