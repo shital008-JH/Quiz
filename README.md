@@ -16,6 +16,11 @@ Users can navigate through questions, select answers, skip questions, and view a
 - Clean, responsive UI with clear status indicators.
 
 ---
+## Download the APK
+You can download the app from here:
+[Download Quiz APK] (https://www.upload-apk.com/en/oHTdMM5mvPzhFrp)
+
+---
 
 ## How to Use
 
